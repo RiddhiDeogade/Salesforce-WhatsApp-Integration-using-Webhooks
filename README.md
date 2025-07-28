@@ -128,9 +128,7 @@ __________________________________________________________________
 🔹 Step 4.1: Copy the Full URL
 It will be:
 
-arduino
-Copy code
-https://yourdomain-dev-ed.my.site.com/twiliointegration/services/apexrest/TwilioWebhook
+    https://yourdomain-dev-ed.my.site.com/twiliointegration/services/apexrest/TwilioWebhook
 This is your Twilio webhook URL.
 
 ## ✅ PART 5: Add URL in Twilio
@@ -138,8 +136,15 @@ Go to Twilio WhatsApp Sandbox Settings
 
 In “When a Message Comes In” field, paste:
 
-arduino
-Copy code
-https://yourdomain-dev-ed.my.site.com/twiliointegration/services/apexrest/TwilioWebhook
+    https://yourdomain-dev-ed.my.site.com/twiliointegration/services/apexrest/TwilioWebhook
 Save
 
+********************************resume from here**************************
+📦 BONUS (Optional): Store or Auto-Reply to Messages
+Would you like me to add code to:
+
+Store the WhatsApp messages in Salesforce (e.g., as Leads)?
+
+Send an automatic reply back using Twilio API from Salesforce?
+
+Let me know and I’ll add that next.
