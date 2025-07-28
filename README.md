@@ -59,20 +59,20 @@ Name it: TwilioWebhook
 🔹 Step 2.2: Paste This Code:
 apex
 
-@RestResource(urlMapping='/TwilioWebhook/*')
-global with sharing class TwilioWebhook {
-    @HttpPost
-    global static void handleIncoming() {
-        RestRequest req = RestContext.request;
-        String from = req.params.get('From');
-        String body = req.params.get('Body');
-
-        // Log received message
-        System.debug('Incoming from: ' + from + ', Message: ' + body);
-
-        // Optional: Create a record or reply
+    @RestResource(urlMapping='/TwilioWebhook/*')
+    global with sharing class TwilioWebhook {
+        @HttpPost
+        global static void handleIncoming() {
+            RestRequest req = RestContext.request;
+            String from = req.params.get('From');
+            String body = req.params.get('Body');
+    
+            // Log received message
+            System.debug('Incoming from: ' + from + ', Message: ' + body);
+    
+            // Optional: Create a record or reply
+        }
     }
-}
 ## ✅ PART 3: Give Guest User Access
 By default, your site is read-only and has no Apex access. Let’s change that.
 
