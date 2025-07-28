@@ -108,11 +108,7 @@ On the site details page, click Public Access Settings (a button near the top).
 This opens the Guest User Profile.
 
 🔹 Step 3: Find Object Settings
-Scroll down OR use the left-side menu and click on Object Settings (under "Apps" section).
-
-(If you don’t see a side menu, click the ☰ icon or scroll way down until you find Object Settings.)
-
-You’ll see a list of all standard and custom objects.
+Scroll down you’ll see a list of all standard objects permission.
 
 🔹 Step 4: Edit Permissions
 Click on the object you want to give access to (e.g., Lead, Case, or your custom object).
