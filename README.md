@@ -89,12 +89,44 @@ Click Edit
 
 Add TwilioWebhook → Save
 
+_______________________________________________________________
 🔹 Step 3.2: Allow Object Access (if needed)
 If you are saving messages as records (e.g. Leads, Cases), also:
+✅ Step-by-Step: Access Object Settings for Guest User in Salesforce
+🔹 Step 1: Open Your Site
+Go to Setup (gear icon > Setup).
 
-Go to Object Settings → [Your Object]
+In the Quick Find box (top left), type and select Sites.
 
-Click Edit and enable Read/Create access.
+Scroll to find the Site you created (e.g., TwilioIntegrationSite).
+
+Click the Site Label (blue text link).
+
+🔹 Step 2: Open Public Access Settings
+On the site details page, click Public Access Settings (a button near the top).
+
+This opens the Guest User Profile.
+
+🔹 Step 3: Find Object Settings
+Scroll down OR use the left-side menu and click on Object Settings (under "Apps" section).
+
+(If you don’t see a side menu, click the ☰ icon or scroll way down until you find Object Settings.)
+
+You’ll see a list of all standard and custom objects.
+
+🔹 Step 4: Edit Permissions
+Click on the object you want to give access to (e.g., Lead, Case, or your custom object).
+
+Click Edit (top of the page).
+
+Enable:
+
+✅ Read
+
+✅ Create
+
+Click Save.
+__________________________________________________________________
 
 ## ✅ PART 4: Test Your Webhook
 🔹 Step 4.1: Copy the Full URL
