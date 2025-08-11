@@ -273,7 +273,7 @@ global with sharing class WhatsAppWebhookHandler {
         insert newLead;
 
         // ✅ Auto-Reply
-        TwilioMessageSender.sendWhatsAppMessage('whatsapp:+917276389678', 'Thanks for contacting us! A member of our team will reach out shortly.');
+        TwilioMessageSender.sendWhatsAppMessage('whatsapp:+91XXXXXXXXXXX', 'Thanks for contacting us! A member of our team will reach out shortly.');
     }
 }*/
 
@@ -285,7 +285,7 @@ global with sharing class WhatsAppWebhookHandler {
     @HttpPost
     global static void handleIncoming() {
 
-        TwilioMessageSender.sendWhatsAppMessage('whatsapp:+917276389678', 'This is a test message from Salesforce!');
+        TwilioMessageSender.sendWhatsAppMessage('whatsapp:+91XXXXXXXXXX', 'This is a test message from Salesforce!');
     }
 }
 
